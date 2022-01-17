@@ -1,0 +1,6 @@
+com\b2c\asianpaints\testCases\Wall_Stickers.class
+com\b2c\asianpaints\testCases\BaseClass.class
+com\b2c\asianpaints\Utilites\ReadConfig.class
+com\b2c\asianpaints\Utilites\Reporting.class
+com\b2c\asianpaints\pageObjects\HomePage.class
+com\b2c\asianpaints\Utilites\XLUtils.class

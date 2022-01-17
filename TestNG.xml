@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="B2C Asian Paints">
+
+	<listeners>
+		<listener class-name="com.b2c.asianpaints.Utilites.Reporting"/>
+	</listeners>
+	
+	<test name="Wall_Stickers">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.b2c.asianpaints.testCases.Wall_Stickers" />
+		</classes>
+	</test>
+
+</suite>

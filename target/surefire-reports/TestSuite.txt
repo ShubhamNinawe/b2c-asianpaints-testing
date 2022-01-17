@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 69.456 s <<< FAILURE! - in TestSuite
+com.b2c.asianpaints.testCases.Wall_Stickers.AddToCart_PLP_InValidInputs[pincode, 123456](1)  Time elapsed: 10.824 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button id="cartPinCodeEditBtn" onclick="shoplisting.openpinCodeFormPopup(event,'btn')" data-toggle="modal" data-target="#cartPinCodeModal" class="for-desktop pincode-btn">...</button> is not clickable at point (689, 8). Other element would receive the click: <div class="header__content-container header__main-container">...</div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-S3JI6TJ', ip: '192.168.10.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cced22339d891e2676d44a5fd778f1bf, clickElement {id=0a9effcd-075d-49e1-afe1-17ed19131b88}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:50713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50713/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cced22339d891e2676d44a5fd778f1bf)] -> xpath: //button[@id='cartPinCodeEditBtn']]
+Session ID: cced22339d891e2676d44a5fd778f1bf
+	at com.b2c.asianpaints.testCases.Wall_Stickers.AddToCart_PLP_InValidInputs(Wall_Stickers.java:100)
+
+com.b2c.asianpaints.testCases.Wall_Stickers.InvalidPincodeCheckAvailbilityPDPPage  Time elapsed: 10.453 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.b2c.asianpaints.testCases.Wall_Stickers.InvalidPincodeCheckAvailbilityPDPPage(Wall_Stickers.java:177)
+
